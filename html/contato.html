@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+</head>
+
+<body>
+
+<header>
+
+    <h1>Contato</h1>
+
+    <nav>
+       <a href="index.html">Início</a> |
+        <a href="jogos.html">Jogos</a> |
+        <a href="minecraft.html">Minecraft</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section>
+
+    <h2>Formulário</h2>
+
+    <form>
+
+        <label for="nome">Nome:</label>
+        <input
+            type="text"
+            id="nome"
+            placeholder="Digite seu nome"
+            required>
+
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input
+            type="email"
+            id="email"
+            placeholder="Digite seu e-mail"
+            required>
+
+        <br><br>
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" required>
+
+        <br><br>
+
+        <label for="jogo">Jogo favorito:</label>
+
+        <input list="jogos" id="jogo" placeholder="Escolha um jogo">
+
+        <datalist id="jogos">
+            <option value="Minecraft">
+            <option value="Roblox">
+            <option value="Valorant">
+        </datalist>
+
+        <br><br>
+
+        <label for="nota">Nota do site:</label>
+        <input type="range" id="nota" min="0" max="10">
+
+        <br><br>
+
+        <label for="arquivo">Enviar arquivo:</label>
+        <input type="file" id="arquivo">
+
+        <br><br>
+
+        <label for="mensagem">Mensagem:</label>
+
+        <br>
+
+        <textarea
+            id="mensagem"
+            placeholder="Digite sua mensagem"
+            required></textarea>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</section>
+
+<section>
+
+    <h2>Data da prova</h2>
+
+    <p>
+        A prova será no dia
+        <time datetime="2026-09-29">29 de setembro de 2026</time>.
+    </p>
+
+</section>
+
+<aside>
+    <p>Obrigado por visitar o site!</p>
+</aside>
+
+</main>
+
+<footer>
+    <p>Projeto HTML - Gabriel Ygor</p>
+</footer>
+
+</body>
+</html>
